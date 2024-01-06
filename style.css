@@ -62,3 +62,18 @@
     color: aliceblue;
     font-size: 1.5rem;
 }
+.cv{
+    width: 100%;
+   display: flex;
+   align-items: center;
+
+}
+.cv1{
+    width:150px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(73, 14, 212);
+    color: aliceblue;
+}

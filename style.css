@@ -113,7 +113,7 @@ a{
 }
 .card{
     width: 100%;
-    height: 100vh;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -122,3 +122,49 @@ a{
     background-color: cadetblue;
     padding: 20px;
 }
+.cards{
+    width: 250px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+    gap: 20px;
+    
+
+}
+.card_img{
+    width:100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+ background-color: rgb(219, 136, 27);
+}
+
+.card_head{
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ background-color: rgb(90, 53, 4);
+}
+
+.card_content{
+    width:100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+   
+ background-color: rgb(145, 6, 145);
+}
+.card_img > img{
+    width:100%;
+    height: 100%;
+}    

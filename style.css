@@ -46,7 +46,7 @@
 }
 .childofp2_2{
     width:45%;
-    height: 350px;
+
     background-color: rgb(43, 226, 125);
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@
     color: aliceblue;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
 
     .childofp2_1{
         width: 100%;
@@ -101,6 +101,11 @@
     .cv{
         justify-content: center;
     }
+
+    .parent2{
+        flex-direction: column-reverse;
+
+        }
 }
 a{
     text-decoration: none;

@@ -61,6 +61,7 @@ body{
     justify-content: center;
     gap: 20px;
     object-fit: cover;
+    flex-wrap: wrap;
     
     
 }
@@ -305,6 +306,9 @@ height: 2px;
 
     .childofp2_2{
         width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .child1_pp1{
@@ -318,6 +322,11 @@ height: 2px;
         flex-direction: column-reverse;
 
         }
+        .girl{
+            width: 300px;
+            height:auto;
+            filter: drop-shadow(0px 0px 5px rgba(230, 8, 145, 0.5));}
+
     .footer-text{
         font-size: 0.6rem;
     }

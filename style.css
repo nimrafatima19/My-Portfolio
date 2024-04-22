@@ -27,7 +27,7 @@ body{
     margin-top: 60px;
     display: flex;
   
-    justify-content: left;
+    justify-content: center;
 }
 .parent2{
     width:90%;

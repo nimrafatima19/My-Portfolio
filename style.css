@@ -115,6 +115,11 @@ a{
     text-decoration: none;
     color: antiquewhite;
 }
+.girl{
+    width: 600px;
+    height:auto;
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+}
 .tag{
     width: 100%;
     

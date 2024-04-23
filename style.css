@@ -317,6 +317,13 @@ height: 2px;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
+@media screen and (max-width:750px) {
+    .logo1>img{
+        width:20%;
+        filter: drop-shadow(0px 4px 4px rgba(156, 2, 117, 0.5));
+         
+     }
+}
 @media screen and (max-width:500px) {
 
     .childofp2_1{
@@ -349,6 +356,11 @@ height: 2px;
     .footer-text{
         font-size: 0.6rem;
     }
+    .logo1>img{
+        width:30%;
+        filter: drop-shadow(0px 4px 4px rgba(156, 2, 117, 0.5));
+         
+     }
 }
 
 

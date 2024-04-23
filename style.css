@@ -349,6 +349,18 @@ height: 2px;
   text-align: center;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
+li{
+display:inline;
+margin: 25px;
+color:#910A67;
+margin-bottom: 30px;
+}
+.container-fluid{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+    color: #910A67;
+}
 
 @media screen and (max-width:750px) {
     .logo1>img{

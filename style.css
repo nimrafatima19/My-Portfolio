@@ -69,7 +69,23 @@ body{
 
 .child1_pp1{
     width:100%;
-    font-weight: bolder;
+    font-weight: bold;
+    color: #1F4394;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.child1_pp3{
+    width:100%;
+    font-weight: bold;
+    color: #1F4394;
+    font-size: 1.2rem;
+    font-family:Arial, Helvetica, sans-serif;
+   
+}
+.child1_pp2{
+    width:100%;
+    font-weight: bold;
     color: #1F4394;
     font-size: 1.2rem;
     font-family:Arial, Helvetica, sans-serif;
@@ -95,6 +111,22 @@ body{
 }
 
 /* Define the keyframe animation */
+@keyframes child1_pp1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  /* Apply the animation to the text */
+  .child1_pp1 {
+    overflow: hidden; /* Ensures the text is not shown outside the box */
+    border-right: .15em solid orange; /* Create a cursor effect */
+    white-space: nowrap; /* Prevents the text from wrapping */
+    animation: typewriter 4s steps(20) forwards; /* Change 4s to adjust the animation duration */
+    opacity: 0; /* Initially hide the paragraphs */
+  }
 
  
 
